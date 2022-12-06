@@ -1,0 +1,109 @@
+.section-title {
+    text-align: center;
+}
+
+.title {
+    background-color: #f6f6f6;
+    padding: 0 1rem;
+}
+
+.section-title>hr {
+    position: relative;
+    height: 1px;
+    width: 50%;
+    top: 2.5rem;
+    background-color: #1acc8d;
+    border: none;
+    z-index: -1;
+}
+
+.hero-image {
+    background-image:  url("./images/Battaramulla.jpg");
+    height: 75vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.hero-text {
+    position: absolute;
+    top: 20rem;
+    left: 50%;
+    padding: 3rem 5rem;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgb(52 54 66 / 80%);
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.25rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    line-height: 1;
+    margin-bottom: 1.875rem;
+}
+
+.description {
+    text-transform: capitalize;
+}
+
+.ptv,
+.location {
+    margin: 3rem 1rem;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+    /* border: 1px solid #fff; */
+    border-radius: 0.5rem;
+    width: 20rem;
+    overflow: hidden;
+    box-shadow: 4px 4px 5px 0px #0000000a;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+
+.card:hover {
+    background-color: #343642;
+    color: white;
+}
+
+.card-img>img {
+    width: 20rem;
+    height: 15rem;
+}
+
+.card-body {
+    padding: 0.5rem 1rem 1rem 1rem!important;
+}
+
+h5.card-title {
+    margin: 0 !important;
+}
+
+p.card-text {
+    font-size: 13px;
+}
+
+@media only screen and (max-width:575px) {
+
+    .hero-text {
+        padding: 3rem;
+        top: 24rem;
+    }
+
+}
