@@ -111,6 +111,11 @@ body {
     justify-content: center;
 }
 
+/* Other */
+.linebreak {
+    display: None;
+}
+
 
 @media only screen and (max-width:575px) {
 
@@ -124,6 +129,10 @@ body {
 
     .navbar ul {
         gap: 0.9rem;
+    }
+
+    .linebreak {
+        display: block;
     }
 
 }
