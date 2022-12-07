@@ -102,6 +102,7 @@ h5.card-title {
     width: 80%;
     height: 20rem;
     border: 0;
+    border-radius: 0.5rem;
 }
 
 @media only screen and (max-width:575px) {
