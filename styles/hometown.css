@@ -99,6 +99,19 @@ p.card-text {
     font-size: 13px;
 }
 
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.map {
+    width: 80%;
+    height: 20rem;
+    border: 0;
+    border-radius: 0.5rem;
+}
+
 @media only screen and (max-width:575px) {
 
     .hero-image {

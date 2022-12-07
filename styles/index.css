@@ -92,6 +92,18 @@ h5.card-title {
     margin: 0 !important;
 }
 
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.map {
+    width: 80%;
+    height: 20rem;
+    border: 0;
+}
+
 @media only screen and (max-width:575px) {
 
     .hero-image {
